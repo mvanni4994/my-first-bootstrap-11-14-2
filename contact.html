@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Matt Vanni: Contact</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<nav class="navbar fixed-top navbar-dark bg-dark">
+  <a class="navbar-brand" rel="index" href=\Users\mvann\OneDrive\Desktop\Coding\my-first-bootstrap-11-14-2\index.html>Matt Vanni</a>
+  <a class="navbar-brand" rel="portfolio" href=\Users\mvann\OneDrive\Desktop\Coding\my-first-bootstrap-11-14-2\portfolio.html>Portfolio</a>
+  <a class="navbar-brand" rel="contact" href="\Users\mvann\OneDrive\Desktop\Coding\my-first-bootstrap-11-14-2\contact.html">Contact</a>
+  </nav>
+
+
+<body>
+  <style type="text/css">
+    body { background: rgb(51, 51, 51) !important; } /*overwrote bootstrap to customize background color. */
+ </style>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Contact</h1>
+  </div>
+</div>
+<!-- input contact information using bootstrap grid system; columns and rows -->
+<div class="card">
+  <div class="card-body">
+<form>
+  <div class="form-row align-items-center">
+    <div class="col-auto">
+      <label class="sr-only" for="inlineFormInput">Name</label>
+      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+    </div>
+    <div class="col-auto">
+      <label class="sr-only" for="inlineFormInputGroup">Email</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">Email</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="example@example.null">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>
+  </div>
+    </div>
+  </div>
+</form>
+</body>
+</html>
